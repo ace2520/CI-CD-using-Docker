@@ -24,8 +24,8 @@ pipeline {
   stage('Docker Build and Tag') {
            steps {
               
-                sh 'docker build -t mystery/samplewebapp:latest .' 
-                //sh 'docker tag samplewebapp nikhilnidhi/samplewebapp:latest'
+                sh 'docker build -t mystery48/samplewebapp:latest .' 
+                //sh 'docker tag samplewebapp mystery48/samplewebapp:latest'
                 //sh 'docker tag samplewebapp nikhilnidhi/samplewebapp:$BUILD_NUMBER'
                
           }
